@@ -2,10 +2,10 @@ body {
 	background: black;
 }
 
-* {
+/* * {
 	border: 1px dashed red;
 	min-height: 10px;
-}
+} */
 .postcard {
 	background: white;
 	width: 400px;
@@ -13,35 +13,44 @@ body {
 	margin: auto;
 }
 .postcard-header {
-	display: x;
+	/* display: x; */
 	display: flex;
 }
 .postcard-header h1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 32px;
 	width: 900px;
-	margin: 0px;
+	margin-top: 10px;
+	margin-left: 8px;
 }
 .postcard-header img {
 	width: 50px;
 	height: 50px;
+	margin-top: 5px;
+	margin-right: 5px;
 }
 .postcard-body {
 	display: flex;
 }
 .body-left p:first-child {
-	margin-top: x;
+	margin-top: 5px;
+	margin-right: 8px;
+	margin-left: 8px;
 }
 .body-left,
 .body-right {
-	padding: x;
+	padding: 8px;
 }
 input {
-	border: x;
-	border-bottom: x;
+	border: 10px;
+	/* border-bottom: 10px; */
+	text-decoration: underline;
+	margin-bottom: 5px;
 }
 .postcard-footer {
-	text-align: x;
+	text-align: center;
 }
 button {
-	background-color: x;
-	padding: x;
+	background-color: rgb(142, 138, 138);
+	padding: 5px;
 }
